@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <style>
-    body{
+    body {
         background: rgb(255, 255, 255);
         background: radial-gradient(circle, rgba(235, 149, 0, 0.28777221337753855) 0%, rgba(255, 255, 255, 1) 100%);
     }
@@ -19,20 +19,25 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/mobile.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header5">
         <nav class="navbar5">
             <div class="joel-content-button">
-                <div class="button-icdtsb-joel"><h7>ICSDPCEAC</h7></div>
+                <div class="button-icdtsb-joel">
+                    <h7>ICSDPCEAC</h7>
+                </div>
             </div>
             <ul class="nav-menu5">
                 <li class="nav-item5">
-                    <a href="#" class="nav-link5">Home</a>
+                    <a href="index.html" class="nav-link5">Home</a>
                 </li>
                 <!--<li class="nav-item5">
                     <a href="https://vardhaman.org/masters-of-business-administration/master-of-business-administration/" target="_blank" class="nav-link5">Department Profile</a>
@@ -42,17 +47,18 @@
                 </li> -->
                 <li class="nav-item5">
                     <a href="./assets/documents/CONFERENCE BROCHURE f.pdf" class="nav-link5">Brochure</a>
-                </li>            
+                </li>
                 <li class="nav-item5">
                     <a href="./themeofconfe.html" class="nav-link5">Theme of Conference</a>
-                                                            
-                </li>    
+                <li class="nav-item5">
+                    <a href="./speakers.html" class="nav-link5">Speakers</a>
+                </li>
                 <li class="nav-item5">
                     <a href="./assets/documents/CONFERENCE BROCHURE f.pdf" class="nav-link5">Call for Papers</a>
                 </li>
-                
+
                 <li class="nav-item5">
-                    <a href="" class="nav-link5">Committees</a>
+                    <a href="committe.html" class="nav-link5">Committees</a>
                 </li>
                 <!-- <li class="nav-item5">
                     <a href="./assets/documents/CRCWordTemplate.docx" class="nav-link5">CRC Word Template</a>
@@ -60,9 +66,9 @@
                 <!-- <li class="nav-item5">
                     <a href="./assets/documents/CRC Press - Copyright transfer form.docx" class="nav-link5">Copyright Transfer Form</a>
                 </li> -->
-                <li class="nav-item5">
+                <!--                 <li class="nav-item5">
                     <a href="./assets/documents/AuthorGuidelines.pdf" class="nav-link5">Author Guidelines</a>
-                </li>
+                </li> -->
                 <li class="nav-item5">
                     <a href="#" class="nav-link5">Registration</a>
                 </li>
@@ -80,47 +86,47 @@
     <script>
         const hamburger = document.querySelector(".hamburger5");
         const navMenu = document.querySelector(".nav-menu5");
-    
+
         hamburger.addEventListener("click", mobileMenu);
-    
+
         function mobileMenu() {
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
         }
-    
+
         const navLink = document.querySelectorAll(".nav-link5");
-    
+
         navLink.forEach(n => n.addEventListener("click", closeMenu));
-    
+
         function closeMenu() {
             hamburger.classList.remove("active");
             navMenu.classList.remove("active");
         }
     </script>
 
-     <section id="speaker" class="section speaker">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+    <section id="speaker" class="section speaker">
+        <div class="row">
+            <div class="col-md-12">
 
-                    <h3 class="section-title">Keynote Speakers</h3>
-                
-                </div>
+                <h3 class="section-title">Keynote Speakers</h3>
+
             </div>
-
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="speaker">
 
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-1.jpg">
+                            <img alt="" class="img-responsive center-block"
+                                src="assets/images/speakers/Venkat Sridhar sir photo.png">
                         </figure>
 
                         <h4>Dr. Venkataramana Sridhar</h4>
 
                         <p>Dept of Biological Systems Engineering, Virginia Tech, USA </p>
 
-<!--                         <ul class="social-block">
+                        <!--                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
                             <li><a href=""><i class="ion-social-facebook"></i></a></li>
                             <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
@@ -133,15 +139,16 @@
                 <div class="col-md-4">
                     <div class="speaker">
 
-                        <!-- <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-2.jpg">
-                        </figure> -->
+                        <figure>
+                            <img alt="" class="img-responsive center-block"
+                                src="assets/images/speakers/Yu-Tai Tao sir photo.png">
+                        </figure>
 
                         <h4>Dr. Yu-Tai Tao</h4>
 
                         <p>Institute of Chemistry, Academia Sinica: Taipei, Taiwan</p>
 
-<!--                         <ul class="social-block">
+                        <!--                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
                             <li><a href=""><i class="ion-social-facebook"></i></a></li>
                             <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
@@ -154,15 +161,16 @@
                 <div class="col-md-4">
                     <div class="speaker">
 
-                        <!-- <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-3.jpg">
-                        </figure> -->
+                        <figure>
+                            <img alt="" class="img-responsive center-block"
+                                src="assets/images/speakers/Dodagoudar sir photo.jpg">
+                        </figure>
 
                         <h4>Dr. Dodagoudar G.R</h4>
 
                         <p>Professor, Dept. of Civil Engineering, IIT Madras</p>
 
-<!--                         <ul class="social-block">
+                        <!--                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
                             <li><a href=""><i class="ion-social-facebook"></i></a></li>
                             <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
@@ -171,32 +179,28 @@
 
                     </div><!-- /.speaker -->
                 </div><!-- /.col-md-4 -->
-            </div><!-- /.row -->
 
-            <div class="row">
+
                 <div class="col-md-4">
 
                     <div class="speaker">
 
-                        <!-- <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-4.jpg">
-                        </figure> -->
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker4.png">
+                        </figure>
 
                         <h4>Dr. Amirtham Rajagopal</h4>
 
                         <p>Professor, Dept. of Civil Engineering, IIT Hyderabad</p>
 
-<!--                         <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul> -->
+
                     </div>
                 </div>
-             </div>
 
-            
+            </div><!-- /.row -->
+
+
+
     </section>
     <!-- <section id="speakers" class="section speakers">
         <div class="container">
